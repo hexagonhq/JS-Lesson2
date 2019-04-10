@@ -23,10 +23,12 @@ var message = (!item) ? 'right' : 'wrong';
 console.log(message);
 
 // task 3
+var a = 4
 var messageTask3 = (a > 0 && a < 4) ? 'right' : 'wrong';
 console.log(messageTask3);
 
 // task 4
+var a = 5;
 var b = 15;
 
 var messageTask4 = (a > 3 && a < 12 || b >= 7 && b < 15) ? 'right' : 'wrong';
@@ -37,10 +39,10 @@ var month = 5;
 
 if (month == 12 || month <= 2 && month > 0) {
   console.log('winter');
-} else if ( month >= 3 && month <= 5) {
-  console.log('spring');
-} else if (month >= 6 && month <= 8) {
+} else if ( month >= 6 && month <= 8) {
   console.log('summer');
+} else if (month >= 3 && month <= 5) {
+  console.log('spring');
 } else if (month >= 9 && month <= 11) {
   console.log("autumn");
 } else {
